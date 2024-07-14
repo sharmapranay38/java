@@ -1,0 +1,11 @@
+import java.util.*;
+public class C{
+    static void LinkedList(){
+        LinkedList<Integer> L = new LinkedList<>();
+        L.add(10);
+        L.add(20);
+    } 
+    public static void main(String [] args){
+        LinkedList();
+    }
+}
