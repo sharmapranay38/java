@@ -1,0 +1,14 @@
+import java.util.*;
+public class C{
+    static void Queue(){
+        LinkedList<Integer> L = new LinkedList<>();
+        // L.offer(10);
+        // L.offer(20);
+        // System.out.println(L.remove());
+        System.out.println(L.peek());
+    } 
+    
+    public static void main(String [] args){
+        Queue();
+    }
+}
