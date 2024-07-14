@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class Anushree{
+    static void ArrayAnushree(){
+        ArrayList<Integer> L = new ArrayList<>();
+        L.add(10);
+        L.add(20);
+        L.add(1,15);
+        System.out.println(L.size());
+
+    }
+    public static void main(String [] args){
+        ArrayAnushree();
+    }
+}
