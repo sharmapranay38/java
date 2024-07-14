@@ -1,0 +1,12 @@
+import java.util.*;
+public class C{
+    static void Stack(){
+        Stack<Integer> L = new Stack<>();
+        L.push(10);
+        L.push(20);
+        System.out.println(L.peek());
+    } 
+    public static void main(String [] args){
+        Stack();
+    }
+}
