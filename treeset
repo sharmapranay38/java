@@ -1,0 +1,19 @@
+import java.util.*;
+public class C{
+    static void TreeSet(){
+        TreeSet<Integer> L = new TreeSet<>();
+        L.add(100);
+        L.add(10);
+        L.add(20);
+        L.add(30);
+        L.add(20);
+        // System.out.println(L.remove());
+              TreeSet<Integer> L1 = (TreeSet<Integer>) L.clone();
+        // System.out.println(L.remove(10));
+        System.out.println(L1);
+    } 
+    
+    public static void main(String [] args){
+        TreeSet();
+    }
+}
