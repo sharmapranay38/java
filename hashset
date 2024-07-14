@@ -1,0 +1,18 @@
+import java.util.*;
+public class C{
+    static void HashSet(){
+        HashSet<Integer> L = new HashSet<>();
+        L.add(10);
+        L.add(20);
+        L.add(30);
+        L.add(20);
+        // System.out.println(L.remove());
+            //   HashSet<Integer> L1 = (HashSet<Integer>) L.clone();
+        System.out.println(L.remove(10));
+        System.out.println(L);
+    } 
+    
+    public static void main(String [] args){
+        HashSet();
+    }
+}
